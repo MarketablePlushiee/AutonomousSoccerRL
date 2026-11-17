@@ -14,6 +14,7 @@
 Competitive multi-agent **Deep Reinforcement Learning (DRL)** environment built in **Unity 6 LTS** and **Python**. Autonomous agents learn to play 1v1 arcade soccer under continuous rigid-body physics using **Proximal Policy Optimization (PPO)** and **Self-Play**—developing ball control, defensive goal-line clearances, and shot alignment without scripted heuristics or behavior trees.
 
 ![Autonomous Soccer 1x Inference Demo](demo-1x.gif)
+
 *Figure 1: Trained ONNX model (`SoccerBot.onnx`) running in real-time (`time_scale = 1`) in Inference Only mode.*
 
 ---
@@ -37,6 +38,7 @@ Trained across **25 parallel arenas** (**50 simultaneous agents**) at `time_scal
 ### 📐 Arena Physics & Egocentric Agent Architecture
 
 ![Arena Architecture](arena-preview.png)
+
 *Figure 2: `20 × 12` zero-friction arena featuring `45°` chamfered corners and `CapsuleCollider` agents with `+Z` forward indicators.*
 
 * **Arena Geometry (`SoccerArena`):** `20 × 12` Unity-unit closed pitch with zero-friction floor, `45°` chamfered corner blocks to prevent dead-ball corner traps, trigger-based goal detectors (`GoalDetector.cs`), and `Continuous Dynamic` collision detection on the ball Rigidbody to prevent wall tunneling.
