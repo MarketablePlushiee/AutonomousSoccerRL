@@ -63,7 +63,7 @@ Iterative refinement across **13 experimental runs** comparing baseline dense sh
 
 | Metric | `SoccerMVP_01` (Baseline) | `SoccerMVP_13` (Final) | Technical Interpretation |
 | :--- | :---: | :---: | :--- |
-| **Cumulative Reward** | $-3.27$ | **$+0.120$** *(peak $+0.247$)* | Escaped local minima and achieved net positive scoring efficiency. |
+| **Cumulative Reward** | $-3.27$ | **$+0.120$** *(peak +0.247)* | Escaped local minima and achieved net positive scoring efficiency. |
 | **Mean Episode Length** | $299.0$ steps *(timeout)* | **$66.49$ steps** | **77.9% reduction** in match duration via fast, decisive attacks. |
 | **Self-Play ELO** | $1016.42$ *(declining)* | **$1092.67$** *(stable)* | Balanced offensive and defensive co-evolution without policy collapse. |
 
@@ -163,7 +163,7 @@ Evolución experimental a lo largo de **13 iteraciones**, contrastando el modelo
 
 | Métrica | `SoccerMVP_01` (Base) | `SoccerMVP_13` (Final) | Interpretación Técnica |
 | :--- | :---: | :---: | :--- |
-| **Recompensa Acumulada** | $-3.27$ | **$+0.120$** *(pico $+0.247$)* | Supera mínimos locales y alcanza eficiencia ofensiva positiva. |
+| **Recompensa Acumulada** | $-3.27$ | **$+0.120$** *(pico +0.247)* | Supera mínimos locales y alcanza eficiencia ofensiva positiva. |
 | **Duración Media Episodio** | $299.0$ pasos *(empate)* | **$66.49$ pasos** | **Reducción del 77,9%** en duración de partido gracias a definiciones rápidas. |
 | **Self-Play ELO** | $1016.42$ *(en caída)* | **$1092.67$** *(estable)* | Co-evolución equilibrada entre ataque y defensa sin colapso de política. |
 
